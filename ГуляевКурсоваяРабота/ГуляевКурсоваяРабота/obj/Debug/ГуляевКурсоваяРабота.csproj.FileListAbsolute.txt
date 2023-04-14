@@ -1,0 +1,108 @@
+C:\Users\Павел Гуляев\Desktop\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\bin\Debug\Каршеринг.mdb
+C:\Users\Павел Гуляев\Desktop\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\bin\Debug\ГуляевКурсоваяРабота.exe.config
+C:\Users\Павел Гуляев\Desktop\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\bin\Debug\ГуляевКурсоваяРабота.exe
+C:\Users\Павел Гуляев\Desktop\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\bin\Debug\ГуляевКурсоваяРабота.pdb
+C:\Users\Павел Гуляев\Desktop\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\obj\Debug\ГуляевКурсоваяРабота.csproj.AssemblyReference.cache
+C:\Users\Павел Гуляев\Desktop\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\obj\Debug\ГуляевКурсоваяРабота.Form1.resources
+C:\Users\Павел Гуляев\Desktop\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\obj\Debug\ГуляевКурсоваяРабота.Form2.resources
+C:\Users\Павел Гуляев\Desktop\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\obj\Debug\ГуляевКурсоваяРабота.Form3.resources
+C:\Users\Павел Гуляев\Desktop\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\obj\Debug\ГуляевКурсоваяРабота.Form4.resources
+C:\Users\Павел Гуляев\Desktop\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\obj\Debug\ГуляевКурсоваяРабота.Form5.resources
+C:\Users\Павел Гуляев\Desktop\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\obj\Debug\ГуляевКурсоваяРабота.Form6.resources
+C:\Users\Павел Гуляев\Desktop\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\obj\Debug\ГуляевКурсоваяРабота.Form7.resources
+C:\Users\Павел Гуляев\Desktop\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\obj\Debug\ГуляевКурсоваяРабота.Form8.resources
+C:\Users\Павел Гуляев\Desktop\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\obj\Debug\ГуляевКурсоваяРабота.Properties.Resources.resources
+C:\Users\Павел Гуляев\Desktop\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\obj\Debug\ГуляевКурсоваяРабота.csproj.GenerateResource.cache
+C:\Users\Павел Гуляев\Desktop\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\obj\Debug\ГуляевКурсоваяРабота.csproj.CoreCompileInputs.cache
+C:\Users\Павел Гуляев\Desktop\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\obj\Debug\ГуляевКурсоваяРабота.exe
+C:\Users\Павел Гуляев\Desktop\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\obj\Debug\ГуляевКурсоваяРабота.pdb
+C:\Users\Иван Гроза\Desktop\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\bin\Debug\Каршеринг.mdb
+C:\Users\Иван Гроза\Desktop\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\bin\Debug\ГуляевКурсоваяРабота.exe.config
+C:\Users\Иван Гроза\Desktop\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\bin\Debug\ГуляевКурсоваяРабота.exe
+C:\Users\Иван Гроза\Desktop\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\bin\Debug\ГуляевКурсоваяРабота.pdb
+C:\Users\Иван Гроза\Desktop\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\obj\Debug\ГуляевКурсоваяРабота.csproj.AssemblyReference.cache
+C:\Users\Иван Гроза\Desktop\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\obj\Debug\ГуляевКурсоваяРабота.Form1.resources
+C:\Users\Иван Гроза\Desktop\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\obj\Debug\ГуляевКурсоваяРабота.Form2.resources
+C:\Users\Иван Гроза\Desktop\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\obj\Debug\ГуляевКурсоваяРабота.Form3.resources
+C:\Users\Иван Гроза\Desktop\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\obj\Debug\ГуляевКурсоваяРабота.Form4.resources
+C:\Users\Иван Гроза\Desktop\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\obj\Debug\ГуляевКурсоваяРабота.Form5.resources
+C:\Users\Иван Гроза\Desktop\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\obj\Debug\ГуляевКурсоваяРабота.Form6.resources
+C:\Users\Иван Гроза\Desktop\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\obj\Debug\ГуляевКурсоваяРабота.Form7.resources
+C:\Users\Иван Гроза\Desktop\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\obj\Debug\ГуляевКурсоваяРабота.Form8.resources
+C:\Users\Иван Гроза\Desktop\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\obj\Debug\ГуляевКурсоваяРабота.Properties.Resources.resources
+C:\Users\Иван Гроза\Desktop\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\obj\Debug\ГуляевКурсоваяРабота.csproj.GenerateResource.cache
+C:\Users\Иван Гроза\Desktop\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\obj\Debug\ГуляевКурсоваяРабота.csproj.CoreCompileInputs.cache
+C:\Users\Иван Гроза\Desktop\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\obj\Debug\ГуляевКурсоваяРабота.exe
+C:\Users\Иван Гроза\Desktop\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\obj\Debug\ГуляевКурсоваяРабота.pdb
+C:\Users\53-10\Desktop\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\bin\Debug\Каршеринг.mdb
+C:\Users\53-10\Desktop\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\bin\Debug\ГуляевКурсоваяРабота.exe.config
+C:\Users\53-10\Desktop\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\bin\Debug\ГуляевКурсоваяРабота.exe
+C:\Users\53-10\Desktop\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\bin\Debug\ГуляевКурсоваяРабота.pdb
+C:\Users\53-10\Desktop\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\obj\Debug\ГуляевКурсоваяРабота.csproj.AssemblyReference.cache
+C:\Users\53-10\Desktop\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\obj\Debug\ГуляевКурсоваяРабота.Form1.resources
+C:\Users\53-10\Desktop\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\obj\Debug\ГуляевКурсоваяРабота.Form2.resources
+C:\Users\53-10\Desktop\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\obj\Debug\ГуляевКурсоваяРабота.Form3.resources
+C:\Users\53-10\Desktop\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\obj\Debug\ГуляевКурсоваяРабота.Form4.resources
+C:\Users\53-10\Desktop\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\obj\Debug\ГуляевКурсоваяРабота.Form5.resources
+C:\Users\53-10\Desktop\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\obj\Debug\ГуляевКурсоваяРабота.Form6.resources
+C:\Users\53-10\Desktop\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\obj\Debug\ГуляевКурсоваяРабота.Form7.resources
+C:\Users\53-10\Desktop\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\obj\Debug\ГуляевКурсоваяРабота.Form8.resources
+C:\Users\53-10\Desktop\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\obj\Debug\ГуляевКурсоваяРабота.Properties.Resources.resources
+C:\Users\53-10\Desktop\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\obj\Debug\ГуляевКурсоваяРабота.csproj.GenerateResource.cache
+C:\Users\53-10\Desktop\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\obj\Debug\ГуляевКурсоваяРабота.csproj.CoreCompileInputs.cache
+C:\Users\53-10\Desktop\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\obj\Debug\ГуляевКурсоваяРабота.exe
+C:\Users\53-10\Desktop\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\obj\Debug\ГуляевКурсоваяРабота.pdb
+C:\Users\Павел Гуляев\OneDrive\Рабочий стол\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\bin\Debug\Каршеринг.mdb
+C:\Users\Павел Гуляев\OneDrive\Рабочий стол\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\bin\Debug\ГуляевКурсоваяРабота.exe.config
+C:\Users\Павел Гуляев\OneDrive\Рабочий стол\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\bin\Debug\ГуляевКурсоваяРабота.exe
+C:\Users\Павел Гуляев\OneDrive\Рабочий стол\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\bin\Debug\ГуляевКурсоваяРабота.pdb
+C:\Users\Павел Гуляев\OneDrive\Рабочий стол\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\obj\Debug\ГуляевКурсоваяРабота.csproj.AssemblyReference.cache
+C:\Users\Павел Гуляев\OneDrive\Рабочий стол\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\obj\Debug\ГуляевКурсоваяРабота.Form1.resources
+C:\Users\Павел Гуляев\OneDrive\Рабочий стол\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\obj\Debug\ГуляевКурсоваяРабота.Form2.resources
+C:\Users\Павел Гуляев\OneDrive\Рабочий стол\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\obj\Debug\ГуляевКурсоваяРабота.Form3.resources
+C:\Users\Павел Гуляев\OneDrive\Рабочий стол\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\obj\Debug\ГуляевКурсоваяРабота.Form4.resources
+C:\Users\Павел Гуляев\OneDrive\Рабочий стол\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\obj\Debug\ГуляевКурсоваяРабота.Form5.resources
+C:\Users\Павел Гуляев\OneDrive\Рабочий стол\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\obj\Debug\ГуляевКурсоваяРабота.Form6.resources
+C:\Users\Павел Гуляев\OneDrive\Рабочий стол\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\obj\Debug\ГуляевКурсоваяРабота.Form7.resources
+C:\Users\Павел Гуляев\OneDrive\Рабочий стол\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\obj\Debug\ГуляевКурсоваяРабота.Form8.resources
+C:\Users\Павел Гуляев\OneDrive\Рабочий стол\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\obj\Debug\ГуляевКурсоваяРабота.Properties.Resources.resources
+C:\Users\Павел Гуляев\OneDrive\Рабочий стол\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\obj\Debug\ГуляевКурсоваяРабота.csproj.GenerateResource.cache
+C:\Users\Павел Гуляев\OneDrive\Рабочий стол\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\obj\Debug\ГуляевКурсоваяРабота.csproj.CoreCompileInputs.cache
+C:\Users\Павел Гуляев\OneDrive\Рабочий стол\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\obj\Debug\ГуляевКурсоваяРабота.exe
+C:\Users\Павел Гуляев\OneDrive\Рабочий стол\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\obj\Debug\ГуляевКурсоваяРабота.pdb
+C:\Users\gulye\OneDrive\Рабочий стол\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\bin\Debug\Каршеринг.mdb
+C:\Users\gulye\OneDrive\Рабочий стол\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\bin\Debug\ГуляевКурсоваяРабота.exe.config
+C:\Users\gulye\OneDrive\Рабочий стол\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\bin\Debug\ГуляевКурсоваяРабота.exe
+C:\Users\gulye\OneDrive\Рабочий стол\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\bin\Debug\ГуляевКурсоваяРабота.pdb
+C:\Users\gulye\OneDrive\Рабочий стол\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\obj\Debug\ГуляевКурсоваяРабота.csproj.AssemblyReference.cache
+C:\Users\gulye\OneDrive\Рабочий стол\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\obj\Debug\ГуляевКурсоваяРабота.Form1.resources
+C:\Users\gulye\OneDrive\Рабочий стол\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\obj\Debug\ГуляевКурсоваяРабота.Form2.resources
+C:\Users\gulye\OneDrive\Рабочий стол\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\obj\Debug\ГуляевКурсоваяРабота.Form3.resources
+C:\Users\gulye\OneDrive\Рабочий стол\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\obj\Debug\ГуляевКурсоваяРабота.Form4.resources
+C:\Users\gulye\OneDrive\Рабочий стол\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\obj\Debug\ГуляевКурсоваяРабота.Form5.resources
+C:\Users\gulye\OneDrive\Рабочий стол\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\obj\Debug\ГуляевКурсоваяРабота.Form6.resources
+C:\Users\gulye\OneDrive\Рабочий стол\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\obj\Debug\ГуляевКурсоваяРабота.Form7.resources
+C:\Users\gulye\OneDrive\Рабочий стол\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\obj\Debug\ГуляевКурсоваяРабота.Form8.resources
+C:\Users\gulye\OneDrive\Рабочий стол\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\obj\Debug\ГуляевКурсоваяРабота.Properties.Resources.resources
+C:\Users\gulye\OneDrive\Рабочий стол\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\obj\Debug\ГуляевКурсоваяРабота.csproj.GenerateResource.cache
+C:\Users\gulye\OneDrive\Рабочий стол\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\obj\Debug\ГуляевКурсоваяРабота.csproj.CoreCompileInputs.cache
+C:\Users\gulye\OneDrive\Рабочий стол\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\obj\Debug\ГуляевКурсоваяРабота.exe
+C:\Users\gulye\OneDrive\Рабочий стол\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\obj\Debug\ГуляевКурсоваяРабота.pdb
+C:\Users\gulye\OneDrive\Рабочий стол\kursash-main\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\bin\Debug\Каршеринг.mdb
+C:\Users\gulye\OneDrive\Рабочий стол\kursash-main\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\bin\Debug\ГуляевКурсоваяРабота.exe.config
+C:\Users\gulye\OneDrive\Рабочий стол\kursash-main\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\bin\Debug\ГуляевКурсоваяРабота.exe
+C:\Users\gulye\OneDrive\Рабочий стол\kursash-main\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\bin\Debug\ГуляевКурсоваяРабота.pdb
+C:\Users\gulye\OneDrive\Рабочий стол\kursash-main\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\obj\Debug\ГуляевКурсоваяРабота.csproj.AssemblyReference.cache
+C:\Users\gulye\OneDrive\Рабочий стол\kursash-main\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\obj\Debug\ГуляевКурсоваяРабота.Form1.resources
+C:\Users\gulye\OneDrive\Рабочий стол\kursash-main\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\obj\Debug\ГуляевКурсоваяРабота.Form2.resources
+C:\Users\gulye\OneDrive\Рабочий стол\kursash-main\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\obj\Debug\ГуляевКурсоваяРабота.Form3.resources
+C:\Users\gulye\OneDrive\Рабочий стол\kursash-main\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\obj\Debug\ГуляевКурсоваяРабота.Form4.resources
+C:\Users\gulye\OneDrive\Рабочий стол\kursash-main\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\obj\Debug\ГуляевКурсоваяРабота.Form5.resources
+C:\Users\gulye\OneDrive\Рабочий стол\kursash-main\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\obj\Debug\ГуляевКурсоваяРабота.Form6.resources
+C:\Users\gulye\OneDrive\Рабочий стол\kursash-main\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\obj\Debug\ГуляевКурсоваяРабота.Form7.resources
+C:\Users\gulye\OneDrive\Рабочий стол\kursash-main\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\obj\Debug\ГуляевКурсоваяРабота.Form8.resources
+C:\Users\gulye\OneDrive\Рабочий стол\kursash-main\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\obj\Debug\ГуляевКурсоваяРабота.Properties.Resources.resources
+C:\Users\gulye\OneDrive\Рабочий стол\kursash-main\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\obj\Debug\ГуляевКурсоваяРабота.csproj.GenerateResource.cache
+C:\Users\gulye\OneDrive\Рабочий стол\kursash-main\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\obj\Debug\ГуляевКурсоваяРабота.csproj.CoreCompileInputs.cache
+C:\Users\gulye\OneDrive\Рабочий стол\kursash-main\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\obj\Debug\ГуляевКурсоваяРабота.exe
+C:\Users\gulye\OneDrive\Рабочий стол\kursash-main\ГуляевКурсоваяРабота\ГуляевКурсоваяРабота\obj\Debug\ГуляевКурсоваяРабота.pdb
