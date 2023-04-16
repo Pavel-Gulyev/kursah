@@ -43,16 +43,15 @@ namespace ГуляевКурсоваяРабота
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.каршерингDataSet = new ГуляевКурсоваяРабота.КаршерингDataSet();
+            this.админыBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.админыTableAdapter = new ГуляевКурсоваяРабота.КаршерингDataSetTableAdapters.АдминыTableAdapter();
             this.логинDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.парольDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.админыBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.каршерингDataSet = new ГуляевКурсоваяРабота.КаршерингDataSet();
-            this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.админыTableAdapter = new ГуляевКурсоваяРабота.КаршерингDataSetTableAdapters.АдминыTableAdapter();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.админыBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.каршерингDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.админыBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -207,6 +206,20 @@ namespace ГуляевКурсоваяРабота
             this.dataGridView1.Size = new System.Drawing.Size(440, 314);
             this.dataGridView1.TabIndex = 43;
             // 
+            // каршерингDataSet
+            // 
+            this.каршерингDataSet.DataSetName = "КаршерингDataSet";
+            this.каршерингDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // админыBindingSource
+            // 
+            this.админыBindingSource.DataMember = "Админы";
+            this.админыBindingSource.DataSource = this.каршерингDataSet;
+            // 
+            // админыTableAdapter
+            // 
+            this.админыTableAdapter.ClearBeforeFill = true;
+            // 
             // логинDataGridViewTextBoxColumn
             // 
             this.логинDataGridViewTextBoxColumn.DataPropertyName = "Логин";
@@ -222,20 +235,6 @@ namespace ГуляевКурсоваяРабота
             this.парольDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.парольDataGridViewTextBoxColumn.Name = "парольDataGridViewTextBoxColumn";
             this.парольDataGridViewTextBoxColumn.Width = 125;
-            // 
-            // админыBindingSource
-            // 
-            this.админыBindingSource.DataMember = "Админы";
-            this.админыBindingSource.DataSource = this.каршерингDataSet;
-            // 
-            // каршерингDataSet
-            // 
-            this.каршерингDataSet.DataSetName = "КаршерингDataSet";
-            this.каршерингDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // админыTableAdapter
-            // 
-            this.админыTableAdapter.ClearBeforeFill = true;
             // 
             // Form8
             // 
@@ -261,8 +260,8 @@ namespace ГуляевКурсоваяРабота
             this.Load += new System.EventHandler(this.Form8_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.админыBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.каршерингDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.админыBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -282,7 +281,6 @@ namespace ГуляевКурсоваяРабота
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Timer timer1;
         private КаршерингDataSet каршерингDataSet;
         private System.Windows.Forms.BindingSource админыBindingSource;
         private КаршерингDataSetTableAdapters.АдминыTableAdapter админыTableAdapter;

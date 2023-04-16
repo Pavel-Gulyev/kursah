@@ -123,11 +123,11 @@ namespace ГуляевКурсоваяРабота
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label2.Location = new System.Drawing.Point(49, 124);
+            this.label2.Location = new System.Drawing.Point(94, 124);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(372, 29);
+            this.label2.Size = new System.Drawing.Size(291, 29);
             this.label2.TabIndex = 27;
-            this.label2.Text = "Продолжить как пользователь";
+            this.label2.Text = "Продолжить как клиент";
             // 
             // Form5
             // 

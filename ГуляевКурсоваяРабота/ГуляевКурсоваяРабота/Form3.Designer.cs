@@ -32,7 +32,6 @@ namespace ГуляевКурсоваяРабота
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form3));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.PasswordTextBox = new System.Windows.Forms.TextBox();
@@ -186,6 +185,7 @@ namespace ГуляевКурсоваяРабота
             this.dataGridView1.Location = new System.Drawing.Point(21, 59);
             this.dataGridView1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RowHeadersWidth = 62;
             this.dataGridView1.RowTemplate.Height = 28;
             this.dataGridView1.Size = new System.Drawing.Size(440, 314);
@@ -197,6 +197,7 @@ namespace ГуляевКурсоваяРабота
             this.логинDataGridViewTextBoxColumn.HeaderText = "Логин";
             this.логинDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.логинDataGridViewTextBoxColumn.Name = "логинDataGridViewTextBoxColumn";
+            this.логинDataGridViewTextBoxColumn.ReadOnly = true;
             this.логинDataGridViewTextBoxColumn.Width = 125;
             // 
             // парольDataGridViewTextBoxColumn
@@ -205,6 +206,7 @@ namespace ГуляевКурсоваяРабота
             this.парольDataGridViewTextBoxColumn.HeaderText = "Пароль";
             this.парольDataGridViewTextBoxColumn.MinimumWidth = 6;
             this.парольDataGridViewTextBoxColumn.Name = "парольDataGridViewTextBoxColumn";
+            this.парольDataGridViewTextBoxColumn.ReadOnly = true;
             this.парольDataGridViewTextBoxColumn.Width = 125;
             // 
             // пользователиBindingSource
@@ -254,7 +256,6 @@ namespace ГуляевКурсоваяРабота
         #endregion
 
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox PasswordTextBox;

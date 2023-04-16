@@ -16,7 +16,6 @@ namespace ГуляевКурсоваяРабота
             InitializeComponent();
             myConnection = new OleDbConnection(connectString);
             myConnection.Open();
-            timer1.Start();
             this.FormBorderStyle = FormBorderStyle.FixedDialog;
             // Убираем кнопки свернуть, развернуть, закрыть.
             this.ControlBox = false;

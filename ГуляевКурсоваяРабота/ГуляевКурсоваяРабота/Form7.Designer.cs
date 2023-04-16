@@ -40,9 +40,6 @@ namespace ГуляевКурсоваяРабота
             this.модельАвтомобиляDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ценаПрокатазаСуткиDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.номеРпаркаDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.датаНачалаАрендыDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.датаОкончанияАрендыDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.фиоКлиентаDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.автомобиликлиентыBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.каршерингDataSet = new ГуляевКурсоваяРабота.КаршерингDataSet();
             this.button1 = new System.Windows.Forms.Button();
@@ -50,7 +47,6 @@ namespace ГуляевКурсоваяРабота
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
@@ -58,14 +54,24 @@ namespace ГуляевКурсоваяРабота
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.автомобили_клиенты_TableAdapter = new ГуляевКурсоваяРабота.КаршерингDataSetTableAdapters.Автомобили_клиенты_TableAdapter();
             this.label3 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.Аренда = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.автомобили_клиенты_TableAdapter = new ГуляевКурсоваяРабота.КаршерингDataSetTableAdapters.Автомобили_клиенты_TableAdapter();
+            this.арендованыеАвтоBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.арендованые_автоTableAdapter = new ГуляевКурсоваяРабота.КаршерингDataSetTableAdapters.Арендованые_автоTableAdapter();
+            this.dataGridView2 = new System.Windows.Forms.DataGridView();
+            this.кодАвтомобиляDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.датаНачалаАрендыDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.датаОкончанияАрендыDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.фиоКлиентаDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.автомобиликлиентыBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.каршерингDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.арендованыеАвтоBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -74,7 +80,7 @@ namespace ГуляевКурсоваяРабота
             this.pictureBox1.Location = new System.Drawing.Point(-1, 1);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(939, 630);
+            this.pictureBox1.Size = new System.Drawing.Size(1319, 629);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -84,12 +90,12 @@ namespace ГуляевКурсоваяРабота
             this.button7.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button7.BackgroundImage")));
             this.button7.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button7.ForeColor = System.Drawing.Color.White;
-            this.button7.Location = new System.Drawing.Point(12, 294);
+            this.button7.Location = new System.Drawing.Point(1005, 94);
             this.button7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(225, 46);
             this.button7.TabIndex = 45;
-            this.button7.Text = "Сохранить";
+            this.button7.Text = "Арендовать";
             this.button7.UseVisualStyleBackColor = true;
             this.button7.Click += new System.EventHandler(this.Button7_Click);
             // 
@@ -98,10 +104,10 @@ namespace ГуляевКурсоваяРабота
             this.button17.BackColor = System.Drawing.Color.Red;
             this.button17.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button17.ForeColor = System.Drawing.Color.White;
-            this.button17.Location = new System.Drawing.Point(15, 434);
+            this.button17.Location = new System.Drawing.Point(780, 558);
             this.button17.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(223, 46);
+            this.button17.Size = new System.Drawing.Size(199, 46);
             this.button17.TabIndex = 43;
             this.button17.Text = "К авторизации";
             this.button17.UseVisualStyleBackColor = false;
@@ -112,10 +118,10 @@ namespace ГуляевКурсоваяРабота
             this.button6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button6.BackgroundImage")));
             this.button6.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button6.ForeColor = System.Drawing.Color.White;
-            this.button6.Location = new System.Drawing.Point(15, 363);
+            this.button6.Location = new System.Drawing.Point(780, 489);
             this.button6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(223, 46);
+            this.button6.Size = new System.Drawing.Size(199, 46);
             this.button6.TabIndex = 41;
             this.button6.Text = "Свернуть";
             this.button6.UseVisualStyleBackColor = true;
@@ -131,19 +137,15 @@ namespace ГуляевКурсоваяРабота
             this.кодАвтомобиляDataGridViewTextBoxColumn,
             this.модельАвтомобиляDataGridViewTextBoxColumn,
             this.ценаПрокатазаСуткиDataGridViewTextBoxColumn,
-            this.номеРпаркаDataGridViewTextBoxColumn,
-            this.датаНачалаАрендыDataGridViewTextBoxColumn,
-            this.датаОкончанияАрендыDataGridViewTextBoxColumn,
-            this.фиоКлиентаDataGridViewTextBoxColumn,
-            this.Аренда});
+            this.номеРпаркаDataGridViewTextBoxColumn});
             this.dataGridView1.DataSource = this.автомобиликлиентыBindingSource;
-            this.dataGridView1.Location = new System.Drawing.Point(1, 1);
+            this.dataGridView1.Location = new System.Drawing.Point(-1, -1);
             this.dataGridView1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RowHeadersWidth = 62;
             this.dataGridView1.RowTemplate.Height = 28;
-            this.dataGridView1.Size = new System.Drawing.Size(937, 247);
+            this.dataGridView1.Size = new System.Drawing.Size(760, 247);
             this.dataGridView1.TabIndex = 40;
             // 
             // кодАвтомобиляDataGridViewTextBoxColumn
@@ -182,33 +184,6 @@ namespace ГуляевКурсоваяРабота
             this.номеРпаркаDataGridViewTextBoxColumn.ReadOnly = true;
             this.номеРпаркаDataGridViewTextBoxColumn.Width = 125;
             // 
-            // датаНачалаАрендыDataGridViewTextBoxColumn
-            // 
-            this.датаНачалаАрендыDataGridViewTextBoxColumn.DataPropertyName = "Дата начала аренды";
-            this.датаНачалаАрендыDataGridViewTextBoxColumn.HeaderText = "Дата начала аренды";
-            this.датаНачалаАрендыDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.датаНачалаАрендыDataGridViewTextBoxColumn.Name = "датаНачалаАрендыDataGridViewTextBoxColumn";
-            this.датаНачалаАрендыDataGridViewTextBoxColumn.ReadOnly = true;
-            this.датаНачалаАрендыDataGridViewTextBoxColumn.Width = 125;
-            // 
-            // датаОкончанияАрендыDataGridViewTextBoxColumn
-            // 
-            this.датаОкончанияАрендыDataGridViewTextBoxColumn.DataPropertyName = "Дата окончания аренды";
-            this.датаОкончанияАрендыDataGridViewTextBoxColumn.HeaderText = "Дата окончания аренды";
-            this.датаОкончанияАрендыDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.датаОкончанияАрендыDataGridViewTextBoxColumn.Name = "датаОкончанияАрендыDataGridViewTextBoxColumn";
-            this.датаОкончанияАрендыDataGridViewTextBoxColumn.ReadOnly = true;
-            this.датаОкончанияАрендыDataGridViewTextBoxColumn.Width = 125;
-            // 
-            // фиоКлиентаDataGridViewTextBoxColumn
-            // 
-            this.фиоКлиентаDataGridViewTextBoxColumn.DataPropertyName = "Фио клиента";
-            this.фиоКлиентаDataGridViewTextBoxColumn.HeaderText = "Фио клиента";
-            this.фиоКлиентаDataGridViewTextBoxColumn.MinimumWidth = 6;
-            this.фиоКлиентаDataGridViewTextBoxColumn.Name = "фиоКлиентаDataGridViewTextBoxColumn";
-            this.фиоКлиентаDataGridViewTextBoxColumn.ReadOnly = true;
-            this.фиоКлиентаDataGridViewTextBoxColumn.Width = 125;
-            // 
             // автомобиликлиентыBindingSource
             // 
             this.автомобиликлиентыBindingSource.DataMember = "Автомобили(клиенты)";
@@ -224,10 +199,10 @@ namespace ГуляевКурсоваяРабота
             this.button1.BackColor = System.Drawing.Color.Red;
             this.button1.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(12, 503);
+            this.button1.Location = new System.Drawing.Point(985, 558);
             this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(225, 46);
+            this.button1.Size = new System.Drawing.Size(199, 46);
             this.button1.TabIndex = 39;
             this.button1.Text = "Выход";
             this.button1.UseVisualStyleBackColor = false;
@@ -238,10 +213,10 @@ namespace ГуляевКурсоваяРабота
             this.button4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button4.BackgroundImage")));
             this.button4.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(15, 570);
+            this.button4.Location = new System.Drawing.Point(986, 489);
             this.button4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(223, 46);
+            this.button4.Size = new System.Drawing.Size(198, 46);
             this.button4.TabIndex = 54;
             this.button4.Text = "Расчет";
             this.button4.UseVisualStyleBackColor = true;
@@ -253,7 +228,7 @@ namespace ГуляевКурсоваяРабота
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label4.ForeColor = System.Drawing.Color.Black;
-            this.label4.Location = new System.Drawing.Point(273, 446);
+            this.label4.Location = new System.Drawing.Point(795, 213);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(227, 24);
             this.label4.TabIndex = 57;
@@ -265,7 +240,7 @@ namespace ГуляевКурсоваяРабота
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label5.ForeColor = System.Drawing.Color.Black;
-            this.label5.Location = new System.Drawing.Point(273, 363);
+            this.label5.Location = new System.Drawing.Point(795, 105);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(127, 24);
             this.label5.TabIndex = 56;
@@ -279,28 +254,18 @@ namespace ГуляевКурсоваяРабота
             this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Calibri", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label6.ForeColor = System.Drawing.Color.Black;
-            this.label6.Location = new System.Drawing.Point(272, 267);
+            this.label6.Location = new System.Drawing.Point(794, 9);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(185, 29);
             this.label6.TabIndex = 55;
             this.label6.Text = "Код автомобиля";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.Location = new System.Drawing.Point(559, 552);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(0, 25);
-            this.label1.TabIndex = 58;
             // 
             // button2
             // 
             this.button2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button2.BackgroundImage")));
             this.button2.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(652, 341);
+            this.button2.Location = new System.Drawing.Point(75, 302);
             this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(223, 46);
@@ -311,7 +276,7 @@ namespace ГуляевКурсоваяРабота
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(277, 403);
+            this.dateTimePicker1.Location = new System.Drawing.Point(799, 161);
             this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(4);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(265, 22);
@@ -319,7 +284,7 @@ namespace ГуляевКурсоваяРабота
             // 
             // dateTimePicker2
             // 
-            this.dateTimePicker2.Location = new System.Drawing.Point(277, 485);
+            this.dateTimePicker2.Location = new System.Drawing.Point(799, 266);
             this.dateTimePicker2.Margin = new System.Windows.Forms.Padding(4);
             this.dateTimePicker2.Name = "dateTimePicker2";
             this.dateTimePicker2.Size = new System.Drawing.Size(265, 22);
@@ -327,7 +292,7 @@ namespace ГуляевКурсоваяРабота
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(277, 318);
+            this.textBox1.Location = new System.Drawing.Point(799, 57);
             this.textBox1.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(180, 22);
@@ -336,15 +301,16 @@ namespace ГуляевКурсоваяРабота
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(665, 274);
+            this.textBox4.Location = new System.Drawing.Point(75, 268);
             this.textBox4.Margin = new System.Windows.Forms.Padding(4);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(180, 22);
+            this.textBox4.Size = new System.Drawing.Size(223, 22);
             this.textBox4.TabIndex = 65;
+            this.textBox4.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(665, 487);
+            this.textBox2.Location = new System.Drawing.Point(1024, 57);
             this.textBox2.Margin = new System.Windows.Forms.Padding(4);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(180, 22);
@@ -359,15 +325,11 @@ namespace ГуляевКурсоваяРабота
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Calibri", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label2.ForeColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(660, 441);
+            this.label2.Location = new System.Drawing.Point(1019, 9);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(211, 29);
             this.label2.TabIndex = 67;
             this.label2.Text = "Введите ваше ФИО";
-            // 
-            // автомобили_клиенты_TableAdapter
-            // 
-            this.автомобили_клиенты_TableAdapter.ClearBeforeFill = true;
             // 
             // label3
             // 
@@ -375,7 +337,7 @@ namespace ГуляевКурсоваяРабота
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label3.ForeColor = System.Drawing.Color.Black;
-            this.label3.Location = new System.Drawing.Point(278, 511);
+            this.label3.Location = new System.Drawing.Point(795, 302);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(264, 24);
             this.label3.TabIndex = 69;
@@ -390,25 +352,101 @@ namespace ГуляевКурсоваяРабота
             "2",
             "3",
             "4"});
-            this.comboBox1.Location = new System.Drawing.Point(282, 552);
+            this.comboBox1.Location = new System.Drawing.Point(801, 348);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(121, 24);
             this.comboBox1.TabIndex = 70;
             // 
-            // Аренда
+            // автомобили_клиенты_TableAdapter
             // 
-            this.Аренда.DataPropertyName = "Код автомобиля";
-            this.Аренда.HeaderText = "Аренда";
-            this.Аренда.MinimumWidth = 6;
-            this.Аренда.Name = "Аренда";
-            this.Аренда.ReadOnly = true;
-            this.Аренда.Width = 125;
+            this.автомобили_клиенты_TableAdapter.ClearBeforeFill = true;
+            // 
+            // арендованыеАвтоBindingSource
+            // 
+            this.арендованыеАвтоBindingSource.DataMember = "Арендованые авто";
+            this.арендованыеАвтоBindingSource.DataSource = this.каршерингDataSet;
+            // 
+            // арендованые_автоTableAdapter
+            // 
+            this.арендованые_автоTableAdapter.ClearBeforeFill = true;
+            // 
+            // dataGridView2
+            // 
+            this.dataGridView2.AutoGenerateColumns = false;
+            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.кодАвтомобиляDataGridViewTextBoxColumn1,
+            this.датаНачалаАрендыDataGridViewTextBoxColumn,
+            this.датаОкончанияАрендыDataGridViewTextBoxColumn,
+            this.фиоКлиентаDataGridViewTextBoxColumn});
+            this.dataGridView2.DataSource = this.арендованыеАвтоBindingSource;
+            this.dataGridView2.Location = new System.Drawing.Point(-1, 371);
+            this.dataGridView2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.dataGridView2.Name = "dataGridView2";
+            this.dataGridView2.RowHeadersWidth = 62;
+            this.dataGridView2.RowTemplate.Height = 28;
+            this.dataGridView2.Size = new System.Drawing.Size(760, 247);
+            this.dataGridView2.TabIndex = 71;
+            // 
+            // кодАвтомобиляDataGridViewTextBoxColumn1
+            // 
+            this.кодАвтомобиляDataGridViewTextBoxColumn1.DataPropertyName = "Код автомобиля";
+            this.кодАвтомобиляDataGridViewTextBoxColumn1.HeaderText = "Код автомобиля";
+            this.кодАвтомобиляDataGridViewTextBoxColumn1.MinimumWidth = 6;
+            this.кодАвтомобиляDataGridViewTextBoxColumn1.Name = "кодАвтомобиляDataGridViewTextBoxColumn1";
+            this.кодАвтомобиляDataGridViewTextBoxColumn1.Width = 125;
+            // 
+            // датаНачалаАрендыDataGridViewTextBoxColumn
+            // 
+            this.датаНачалаАрендыDataGridViewTextBoxColumn.DataPropertyName = "Дата начала аренды";
+            this.датаНачалаАрендыDataGridViewTextBoxColumn.HeaderText = "Дата начала аренды";
+            this.датаНачалаАрендыDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.датаНачалаАрендыDataGridViewTextBoxColumn.Name = "датаНачалаАрендыDataGridViewTextBoxColumn";
+            this.датаНачалаАрендыDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // датаОкончанияАрендыDataGridViewTextBoxColumn
+            // 
+            this.датаОкончанияАрендыDataGridViewTextBoxColumn.DataPropertyName = "Дата окончания аренды";
+            this.датаОкончанияАрендыDataGridViewTextBoxColumn.HeaderText = "Дата окончания аренды";
+            this.датаОкончанияАрендыDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.датаОкончанияАрендыDataGridViewTextBoxColumn.Name = "датаОкончанияАрендыDataGridViewTextBoxColumn";
+            this.датаОкончанияАрендыDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // фиоКлиентаDataGridViewTextBoxColumn
+            // 
+            this.фиоКлиентаDataGridViewTextBoxColumn.DataPropertyName = "Фио клиента";
+            this.фиоКлиентаDataGridViewTextBoxColumn.HeaderText = "Фио клиента";
+            this.фиоКлиентаDataGridViewTextBoxColumn.MinimumWidth = 6;
+            this.фиоКлиентаDataGridViewTextBoxColumn.Name = "фиоКлиентаDataGridViewTextBoxColumn";
+            this.фиоКлиентаDataGridViewTextBoxColumn.Width = 125;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.Location = new System.Drawing.Point(802, 383);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(0, 25);
+            this.label1.TabIndex = 58;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label7.Location = new System.Drawing.Point(802, 419);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(0, 25);
+            this.label7.TabIndex = 72;
             // 
             // Form7
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(931, 629);
+            this.ClientSize = new System.Drawing.Size(1270, 629);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.dataGridView2);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -432,12 +470,14 @@ namespace ГуляевКурсоваяРабота
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form7";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Кабинет пользователя";
+            this.Text = "Кабинет клиента";
             this.Load += new System.EventHandler(this.Form7_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.автомобиликлиентыBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.каршерингDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.арендованыеАвтоBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -455,7 +495,6 @@ namespace ГуляевКурсоваяРабота
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
         private System.Windows.Forms.DateTimePicker dateTimePicker2;
@@ -463,18 +502,23 @@ namespace ГуляевКурсоваяРабота
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.ComboBox comboBox1;
         private КаршерингDataSet каршерингDataSet;
         private System.Windows.Forms.BindingSource автомобиликлиентыBindingSource;
         private КаршерингDataSetTableAdapters.Автомобили_клиенты_TableAdapter автомобили_клиенты_TableAdapter;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.DataGridViewTextBoxColumn кодАвтомобиляDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn модельАвтомобиляDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn ценаПрокатазаСуткиDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn номеРпаркаDataGridViewTextBoxColumn;
+        private System.Windows.Forms.BindingSource арендованыеАвтоBindingSource;
+        private КаршерингDataSetTableAdapters.Арендованые_автоTableAdapter арендованые_автоTableAdapter;
+        private System.Windows.Forms.DataGridView dataGridView2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn кодАвтомобиляDataGridViewTextBoxColumn1;
         private System.Windows.Forms.DataGridViewTextBoxColumn датаНачалаАрендыDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn датаОкончанияАрендыDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn фиоКлиентаDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Аренда;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label7;
     }
 }

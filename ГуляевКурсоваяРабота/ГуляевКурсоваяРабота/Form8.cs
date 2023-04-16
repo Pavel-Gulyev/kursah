@@ -20,7 +20,6 @@ namespace ГуляевКурсоваяРабота
             label1.BackColor = Color.Transparent;
             label2.Parent = pictureBox1;
             label2.BackColor = Color.Transparent;
-            timer1.Start();
             this.FormBorderStyle = FormBorderStyle.FixedDialog;
             // Убираем кнопки свернуть, развернуть, закрыть.
             this.ControlBox = false;
@@ -31,7 +30,8 @@ namespace ГуляевКурсоваяРабота
              private void Form8_Load(object sender, EventArgs e)
         {
             // TODO: данная строка кода позволяет загрузить данные в таблицу "каршерингDataSet.Админы". При необходимости она может быть перемещена или удалена.
-            this.админыTableAdapter.Fill(this.каршерингDataSet.Админы);  
+            this.админыTableAdapter.Fill(this.каршерингDataSet.Админы);
+
         }
 
         private void button3_Click(object sender, EventArgs e)

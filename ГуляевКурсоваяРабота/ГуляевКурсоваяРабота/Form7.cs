@@ -8,20 +8,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Data.OleDb;
 
 namespace ГуляевКурсоваяРабота
 {
     public partial class Form7 : Form
     {
-        public static string connectString = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=Каршеринг.mdb;";
-        private OleDbConnection myConnection;
-        OleDbDataReader dataReader;
+    
+
         public Form7()
         {
             InitializeComponent();
-            myConnection = new OleDbConnection(connectString);
-            myConnection.Open();
             this.FormBorderStyle = FormBorderStyle.FixedDialog;
             // Убираем кнопки свернуть, развернуть, закрыть.
             this.ControlBox = false;
@@ -31,135 +27,47 @@ namespace ГуляевКурсоваяРабота
 
         private void Form7_Load(object sender, EventArgs e)
         {
+            // TODO: данная строка кода позволяет загрузить данные в таблицу "каршерингDataSet.Арендованые_авто". При необходимости она может быть перемещена или удалена.
+            this.арендованые_автоTableAdapter.Fill(this.каршерингDataSet.Арендованые_авто);
             // TODO: данная строка кода позволяет загрузить данные в таблицу "каршерингDataSet._Автомобили_клиенты_". При необходимости она может быть перемещена или удалена.
             this.автомобили_клиенты_TableAdapter.Fill(this.каршерингDataSet._Автомобили_клиенты_);
+
         }
 
         private void Button7_Click(object sender, EventArgs e)
         {
+            
+
             if (textBox1.Text != "" && textBox2.Text != "" && comboBox1.Text != "")
             {
-                MessageBox.Show("Автомобиль арендован!");
-
-                if (textBox1.Text == "1")
+                var row = каршерингDataSet.Арендованые_авто.NewRow();
+                row[0] = Convert.ToInt32(textBox1.Text);
+                row[1] = Convert.ToDateTime(dateTimePicker1.Text);
+                row[2] = Convert.ToDateTime(dateTimePicker2.Text);
+                row[3] = Convert.ToString(textBox2.Text);
+                try
                 {
-
-                    this.автомобили_клиенты_TableAdapter.Update(this.каршерингDataSet._Автомобили_клиенты_);
-                    автомобили_клиенты_TableAdapter.Update(каршерингDataSet._Автомобили_клиенты_);
-                    dataGridView1[4, 0].Value = Convert.ToDateTime(dateTimePicker1.Text);
-                    dataGridView1[5, 0].Value = Convert.ToDateTime(dateTimePicker2.Text);
-                    dataGridView1[6, 0].Value = textBox2.Text;
+                    каршерингDataSet.Арендованые_авто.Rows.Add(row);
                 }
-
-                if (textBox1.Text == "2")
+       
+                catch
                 {
-                    this.автомобили_клиенты_TableAdapter.Update(this.каршерингDataSet._Автомобили_клиенты_);
-                    автомобили_клиенты_TableAdapter.Update(каршерингDataSet._Автомобили_клиенты_);
-                    dataGridView1[4, 1].Value = Convert.ToDateTime(dateTimePicker1.Text);
-                    dataGridView1[5, 1].Value = Convert.ToDateTime(dateTimePicker2.Text);
-                    dataGridView1[6, 1].Value = textBox2.Text;
+                    MessageBox.Show("Автомобиль  уже арендован!"); 
                 }
-
-                if (textBox1.Text == "3")
-                {
-                    this.автомобили_клиенты_TableAdapter.Update(this.каршерингDataSet._Автомобили_клиенты_);
-                    автомобили_клиенты_TableAdapter.Update(каршерингDataSet._Автомобили_клиенты_);
-                    dataGridView1[4, 2].Value = Convert.ToDateTime(dateTimePicker1.Text);
-                    dataGridView1[5, 2].Value = Convert.ToDateTime(dateTimePicker2.Text);
-                    dataGridView1[6, 2].Value = textBox2.Text;
-                }
-
-                if (textBox1.Text == "4")
-                {
-                    this.автомобили_клиенты_TableAdapter.Update(this.каршерингDataSet._Автомобили_клиенты_);
-                    автомобили_клиенты_TableAdapter.Update(каршерингDataSet._Автомобили_клиенты_);
-                    dataGridView1[4, 3].Value = Convert.ToDateTime(dateTimePicker1.Text);
-                    dataGridView1[5, 3].Value = Convert.ToDateTime(dateTimePicker2.Text);
-                    dataGridView1[6, 3].Value = textBox2.Text;
-                }
-
-                if (textBox1.Text == "5")
-                {
-                    this.автомобили_клиенты_TableAdapter.Update(this.каршерингDataSet._Автомобили_клиенты_);
-                    автомобили_клиенты_TableAdapter.Update(каршерингDataSet._Автомобили_клиенты_);
-                    dataGridView1[4, 4].Value = Convert.ToDateTime(dateTimePicker1.Text);
-                    dataGridView1[5, 4].Value = Convert.ToDateTime(dateTimePicker2.Text);
-                    dataGridView1[6, 4].Value = textBox2.Text;
-                }
-
-                if (textBox1.Text == "6")
-                {
-                    автомобили_клиенты_TableAdapter.Update(каршерингDataSet._Автомобили_клиенты_);
-                    dataGridView1[4, 5].Value = Convert.ToDateTime(dateTimePicker1.Text);
-                    dataGridView1[5, 5].Value = Convert.ToDateTime(dateTimePicker2.Text);
-                    dataGridView1[6, 5].Value = textBox2.Text;
-
-                }
-
-                if (textBox1.Text == "7")
-                {
-                    this.автомобили_клиенты_TableAdapter.Update(this.каршерингDataSet._Автомобили_клиенты_);
-                    автомобили_клиенты_TableAdapter.Update(каршерингDataSet._Автомобили_клиенты_);
-                    dataGridView1[4, 6].Value = Convert.ToDateTime(dateTimePicker1.Text);
-                    dataGridView1[5, 6].Value = Convert.ToDateTime(dateTimePicker2.Text);
-                    dataGridView1[6, 6].Value = textBox2.Text;
-                }
-
-                if (textBox1.Text == "8")
-                {
-                    this.автомобили_клиенты_TableAdapter.Update(this.каршерингDataSet._Автомобили_клиенты_);
-                    автомобили_клиенты_TableAdapter.Update(каршерингDataSet._Автомобили_клиенты_);
-                    dataGridView1[4, 7].Value = Convert.ToDateTime(dateTimePicker1.Text);
-                    dataGridView1[5, 7].Value = Convert.ToDateTime(dateTimePicker2.Text);
-                    dataGridView1[6, 7].Value = textBox2.Text;
-                }
-
-                if (textBox1.Text == "9")
-                {
-                    this.автомобили_клиенты_TableAdapter.Update(this.каршерингDataSet._Автомобили_клиенты_);
-                    автомобили_клиенты_TableAdapter.Update(каршерингDataSet._Автомобили_клиенты_);
-                    dataGridView1[4, 8].Value = Convert.ToDateTime(dateTimePicker1.Text);
-                    dataGridView1[5, 8].Value = Convert.ToDateTime(dateTimePicker2.Text);
-                    dataGridView1[6, 8].Value = textBox2.Text;
-                }
-
-                if (textBox1.Text == "10")
-                {
-                    this.автомобили_клиенты_TableAdapter.Update(this.каршерингDataSet._Автомобили_клиенты_);
-                    автомобили_клиенты_TableAdapter.Update(каршерингDataSet._Автомобили_клиенты_);
-                    dataGridView1[4, 9].Value = Convert.ToDateTime(dateTimePicker1.Text);
-                    dataGridView1[5, 9].Value = Convert.ToDateTime(dateTimePicker2.Text);
-                    dataGridView1[6, 9].Value = textBox2.Text;
-                }
-
-                if (textBox1.Text == "11")
-                {
-                    this.автомобили_клиенты_TableAdapter.Update(this.каршерингDataSet._Автомобили_клиенты_);
-                    автомобили_клиенты_TableAdapter.Update(каршерингDataSet._Автомобили_клиенты_);
-                    dataGridView1[4, 10].Value = Convert.ToDateTime(dateTimePicker1.Text);
-                    dataGridView1[5, 10].Value = Convert.ToDateTime(dateTimePicker2.Text);
-                    dataGridView1[6, 10].Value = textBox2.Text;
-                }
-
-                if (textBox1.Text == "12")
-                {
-                    this.автомобили_клиенты_TableAdapter.Update(this.каршерингDataSet._Автомобили_клиенты_);
-                    автомобили_клиенты_TableAdapter.Update(каршерингDataSet._Автомобили_клиенты_);
-                    dataGridView1[4, 11].Value = Convert.ToDateTime(dateTimePicker1.Text);
-                    dataGridView1[5, 11].Value = Convert.ToDateTime(dateTimePicker2.Text);
-                    dataGridView1[6, 11].Value = textBox2.Text;
-                }
-
+      
+                this.арендованые_автоTableAdapter.Update(this.каршерингDataSet.Арендованые_авто);
                 автомобили_клиенты_TableAdapter.Update(каршерингDataSet._Автомобили_клиенты_);
+                арендованые_автоTableAdapter.Update(каршерингDataSet.Арендованые_авто);
                 File.Delete(@"..\..\..\ГуляевКурсоваяРабота\Каршеринг.mdb");
                 File.Copy("Каршеринг.mdb", @"..\..\..\ГуляевКурсоваяРабота\Каршеринг.mdb");
             }
+            
             else
             {
                 MessageBox.Show("Проверьте заполнены ли все ключевые поля!");
             }
-        }
 
+        }
 
         private void button6_Click(object sender, EventArgs e)
         {
@@ -185,6 +93,7 @@ namespace ГуляевКурсоваяРабота
             int a = y.Days;
             int c = z.Days;
             int b;
+
             switch (comboBox1.SelectedIndex)
             {
                 case 0:
@@ -192,13 +101,15 @@ namespace ГуляевКурсоваяРабота
                     if (y > z && v)
                     {
                         b = 4500 * (a + 1);
-                        label1.Text = "Сумма аренды состсавляет " + Convert.ToString(b) + " рублей";
+                        label1.Text = "Сумма аренды состсавляет " + Convert.ToString(b);
+                        label7.Text = " рублей!";
                     }
 
                     else if (y < z)
                     {
                         b = 4500 * (c + 1);
-                        label1.Text = "Сумма аренды состсавляет " + Convert.ToString(b) + " рублей";
+                        label1.Text = "Сумма аренды состсавляет " + Convert.ToString(b); 
+                        label7.Text =" рублей!";
                     }
 
                     else
@@ -212,39 +123,45 @@ namespace ГуляевКурсоваяРабота
                     if (y > z)
                     {
                         b = 3000 * (a + 1);
-                        label1.Text = "Сумма аренды состсавляет " + Convert.ToString(b) + " рублей";
+                        label1.Text = "Сумма аренды состсавляет " + Convert.ToString(b);
+                        label7.Text = " рублей!";
                     }
 
                     else
                     {
                         b = 3000 * (c + 1);
-                        label1.Text = "Сумма аренды состсавляет " + Convert.ToString(b) + " рублей";
+                        label1.Text = "Сумма аренды состсавляет " + Convert.ToString(b);
+                        label7.Text = " рублей!";
                     }
                     break;
                 case 2:
                     if (y > z)
                     {
                         b = 4000 * (a + 1);
-                        label1.Text = "Сумма аренды состсавляет " + Convert.ToString(b) + " рублей";
+                        label1.Text = "Сумма аренды состсавляет " + Convert.ToString(b);
+                        label7.Text = " рублей!";
                     }
 
                     else
                     {
                         b = 4000 * (c + 1);
-                        label1.Text = "Сумма аренды состсавляет " + Convert.ToString(b) + " рублей";
+                        label1.Text = "Сумма аренды состсавляет " + Convert.ToString(b);
+                        label7.Text = " рублей!";
                     }
                     break;
                 case 3:
                     if (y > z)
                     {
                         b = 5000 * (a + 1);
-                        label1.Text = "Сумма аренды состсавляет " + Convert.ToString(b) + " рублей";
+                        label1.Text = "Сумма аренды состсавляет " + Convert.ToString(b);
+                        label7.Text = " рублей!";
                     }
 
                     else
                     {
                         b = 5000 * (c + 1);
-                        label1.Text = "Сумма аренды состсавляет " + Convert.ToString(b) + " рублей";
+                        label1.Text = "Сумма аренды состсавляет " + Convert.ToString(b);
+                        label7.Text = " рублей!";
                     }
 
                     break;
@@ -265,7 +182,7 @@ namespace ГуляевКурсоваяРабота
                         }
             }
         }
-     
+
         private void textBox2_KeyPress_1(object sender, KeyPressEventArgs e)
         {
             char ch = e.KeyChar;
@@ -280,10 +197,17 @@ namespace ГуляевКурсоваяРабота
         {
             char ch1 = e.KeyChar;
             textBox2.Clear();
+
             if (!Char.IsDigit(ch1) && ch1 != 8) //Если символ, введенный с клавы - не цифра (IsDigit),
             {
                 e.Handled = true;// то событие не обрабатывается. ch!=8 (8 - это Backspace)
             }
         }
+
+        private void textBox4_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }

@@ -10,7 +10,6 @@ namespace ГуляевКурсоваяРабота
         public Form2()
         {
             InitializeComponent();
-            timer1.Start();
             this.FormBorderStyle = FormBorderStyle.FixedDialog;
             // Убираем кнопки свернуть, развернуть, закрыть.
             this.ControlBox = false;
@@ -19,8 +18,15 @@ namespace ГуляевКурсоваяРабота
         }
         private void Form2_Load(object sender, EventArgs e)
         {
+            // TODO: данная строка кода позволяет загрузить данные в таблицу "каршерингDataSet.Арендованые_авто". При необходимости она может быть перемещена или удалена.
+            this.арендованые_автоTableAdapter.Fill(this.каршерингDataSet.Арендованые_авто);
             // TODO: данная строка кода позволяет загрузить данные в таблицу "каршерингDataSet._Автомобили_клиенты_". При необходимости она может быть перемещена или удалена.
             this.автомобили_клиенты_TableAdapter.Fill(this.каршерингDataSet._Автомобили_клиенты_);
+            // TODO: данная строка кода позволяет загрузить данные в таблицу "каршерингDataSet.Арендованые_авто". При необходимости она может быть перемещена или удалена.
+            this.арендованые_автоTableAdapter.Fill(this.каршерингDataSet.Арендованые_авто);
+            // TODO: данная строка кода позволяет загрузить данные в таблицу "каршерингDataSet._Автомобили_клиенты_". При необходимости она может быть перемещена или удалена.
+            this.автомобили_клиенты_TableAdapter.Fill(this.каршерингDataSet._Автомобили_клиенты_);
+
             label1.Parent = pictureBox1;
             label1.BackColor = Color.Transparent;
             dataGridView1.ClearSelection();
@@ -48,6 +54,7 @@ namespace ГуляевКурсоваяРабота
 
         private void Button4_Click(object sender, EventArgs e)
         {
+            арендованые_автоTableAdapter.Update(каршерингDataSet.Арендованые_авто);
             автомобили_клиенты_TableAdapter.Update(каршерингDataSet._Автомобили_клиенты_);
             File.Delete(@"..\..\..\ГуляевКурсоваяРабота\Каршеринг.mdb");
             File.Copy("Каршеринг.mdb", @"..\..\..\ГуляевКУрсоваяРабота\Каршеринг.mdb");
@@ -55,7 +62,7 @@ namespace ГуляевКурсоваяРабота
 
         private void Button6_Click(object sender, EventArgs e)
         {
-            автомобиликлиентыBindingSource.RemoveCurrent();
+           арендованыеАвтоBindingSource.RemoveCurrent();
         }
 
         private void Button9_Click(object sender, EventArgs e)
@@ -135,6 +142,13 @@ namespace ГуляевКурсоваяРабота
             {
                 Opacity += 0.1d;
             }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form9 frm9 = new Form9();
+            frm9.Show();
+            this.Hide();
         }
     }
 }
